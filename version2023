@@ -27,7 +27,6 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8|Referer=http://sctvonl
 https://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 
 #-*--VTC-*--#
-
 #EXTINF:-1 tvg-id="vtc1" group-title="🛰️| VTC" tvg-logo="https://i.ibb.co/mH4XCCF/VTC1-BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon/vtc1-hd/dvr-${start}-${offset}.m3u8", VTC1 HD
 https://live-zlr1.tv360.vn/manifest/VTC1_HD/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="vtc2" group-title="🛰️| VTC" tvg-logo="https://i.ibb.co/7WwzKSj/VTC2-BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtc2_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTC2
