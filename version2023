@@ -151,16 +151,10 @@ http://live.tv360.vn/manifest/QPVN_HD/playlist_1080p.m3u8
 https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 
 #EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://i.ibb.co/QkgRShZ/hbo-BEARTV.png" group-title="🌟| Giải Trí",HBO HD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/hbo.php
-https://akavnpt.kplus.vn/msky-live/live_kplus/hbo.smil/manifest.mpd
+http://vthanhtivi.pw:5000/hbo/index.m3u8
 
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🌟| Giải Trí", CINEMAX HD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/cinemax.php
-https://akavnpt.kplus.vn/msky-live/live_kplus/max.smil/manifest.mpd
+http://vthanhtivi.pw:5000/cinemax/index.m3u8
 
 #EXTINF:-1 tvg-id="inthebox" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Jrs5Vq2/Inthe-Box-Channel-150x901j1.png", In The Box
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
