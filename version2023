@@ -180,7 +180,7 @@ https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd
 #EXTINF:-1 tvg-id="hits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Sy3YTxJ/hits-movies-logo.png", HITS
 https://code.vthanhtivi.pw/getlink/tv360/5aIhZTG2OtxvMyLTVlsKrw/1695565372/107/playlist.m3u8
 #EXTINF:-1 tvg-id="kix" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/QYVd38q/kix.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/kixhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", KIX HD
-https://fbvip88.com/fptplay/getfpt.php?id=kix
+https://code.vthanhtivi.pw/getlink/fptplay/kix/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="warnertvhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/88LPqCy/WB.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Warner TV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -266,12 +266,7 @@ https://e6.endpoint.cdn.sctvonline.vn/live_dzones/dsc.smil/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/discoveryasia2.php
 https://e6.endpoint.cdn.sctvonline.vn/live_dzones/dscasia.smil/manifest.mpd
 #EXTINF:0 tvg-id="historyhd" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/dj5PJKn/History-HD.png",History
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/history.php
-https://sglive.akamaized.net/bpk-tv/prod_history/default/index.mpd
-
+http://vthanhtivi.pw:5000/history/index.m3u8
 #EXTINF:-1 tvg-id="ngchd" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/vX1Vrw2/National-Geographic.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/natgeohd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", National Geographic HD
 http://vthanhtivi.pw:5000/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="ngwhd" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/Gnxf13f/Nat-Geo-Wild.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/natgeowild_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Nat Geo Wild HD
