@@ -200,9 +200,7 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="🌟| Giải Trí" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/tvbv.jpg", TVB Vietnam
 https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/6314468039001/0914b33308e3498da3b00fe2c050764e/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-id="" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/C5Gq4ky/1f6e441382a388940977fd9e165178c42fe0c193.png", Thrill
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDljZWY3MGUtM2I0Ni0zODQyLTk3ZjItMDI0MWFjOTA4ODc1
-https://newanv-live-cdn.mncnow.id/live/eds/Thrill/sa_dash_vmx/Thrill.mpd
+https://code.vthanhtivi.pw/getlink/eazie/242921/playlist.m3u8
 
 #EXTINF:-1 tvg-id="happykids" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/4Y4yxZq/Happy-Kids.png", Happy Kids
 https://vtsstr7.tv24.vn/live/smil:Happy_Kids.smil/chunklist.m3u8
