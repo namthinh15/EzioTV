@@ -183,9 +183,9 @@ https://s7772.cdn.mytvnet.vn/pkg20/live_dzones/axn.smil/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/cinemaworld.php
 https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd
 #EXTINF:-1 tvg-id="hits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Sy3YTxJ/hits-movies-logo.png", HITS
-https://code.vthanhtivi.pw/getlink/tv360/5aIhZTG2OtxvMyLTVlsKrw/1695565372/107/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/OUz7MX4vuyNlkzg9xUiPVg/1698336243/107/playlist.m3u8
 #EXTINF:-1 tvg-id="kix" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/QYVd38q/kix.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/kixhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", KIX HD
-https://code.vthanhtivi.pw/getlink/fptplay/kix/chunklist_b5000000.m3u8
+https://code.vthanhtivi.pw/getlink/fptplay/zy1wOfXz8-3UyJvDR1fBBg/1698336243/kix/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="warnertvhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/88LPqCy/WB.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Warner TV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -197,6 +197,8 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="🌟| Giải Trí" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/tvbv.jpg", TVB Vietnam
 https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/6314468039001/0914b33308e3498da3b00fe2c050764e/playlist_ssaiM.m3u8
+#EXTINF:-1 tvg-id="" group-title="🌟| Giải Trí" tvg-logo="https://static.wikia.nocookie.net/logos/images/5/5f/Thrill_ident_2014.png/revision/latest/scale-to-width-down/1366?cb=20220518142105&path-prefix=vi", Thrill
+https://code.vthanhtivi.pw/getlink/eazie/242921/playlist.m3u8
 
 #EXTINF:-1 tvg-id="happykids" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/4Y4yxZq/Happy-Kids.png", Happy Kids
 https://vtsstr7.tv24.vn/live/smil:Happy_Kids.smil/chunklist.m3u8
