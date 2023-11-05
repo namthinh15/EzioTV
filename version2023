@@ -448,7 +448,7 @@ http://evolved.host:8080/carlton.b.williams1@gmail.com/wmjSiWUXd4/214131
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Setanta-logo.jpg", Bắc Âu: Setanta Sport+
 http://evolved.host:8080/carlton.b.williams1@gmail.com/wmjSiWUXd4/214130
 
-#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+ CINE - MyK+
+#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/Bf4SPG7/Kplus-Cine-2021.png", K+ CINE - MyK+
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -460,19 +460,19 @@ https://tiemnhazunn.click/keompd/cine/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keylife.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 https://tiemnhazunn.click/keompd/action/index.mpd
-#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+ SPORT1 - MyK+
+#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/pxLHzZ9/Kplus-Sport-1-2021.png", K+ SPORT1 - MyK+
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keysport1.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 https://tiemnhazunn.click/keompd/sport1/index.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+ SPORT2 - MyK+
+#EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/mtTzffr/Kplus-Sport-2-2021.png", K+ SPORT2 - MyK+
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keysport2.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 https://tiemnhazunn.click/keompd/sport2/index.mpd
-#EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/89.png", K+ KIDS - MyK+
+#EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/gt6nYwJ/Kplus-Kids-2021.png", K+ KIDS - MyK+
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keykids.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
