@@ -155,22 +155,30 @@ http://live.tv360.vn/manifest/QPVN_HD/playlist_1080p.m3u8
 https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 
 #EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://i.ibb.co/QkgRShZ/hbo-BEARTV.png" group-title="🌟| Giải Trí",HBO HD
-http://vthanhtivi.pw:5000/hbo/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://thick.ddns.net/key/keyy/hbo.php
+https://akavnpt.kplus.vn/msky-live/live_kplus/hbo.smil/manifest.mpd
 
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🌟| Giải Trí", CINEMAX HD
-http://vthanhtivi.pw:5000/cinemax/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://thick.ddns.net/key/keyy/cinemax.php
+https://akavnpt.kplus.vn/msky-live/live_kplus/max.smil/manifest.mpd
 
 #EXTINF:-1 tvg-id="inthebox" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Jrs5Vq2/Inthe-Box-Channel-150x901j1.png", In The Box
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/inthebox.php
-https://tiemnhazunn.click/tv360/tv360.php?id=235
+#KODIPROP:inputstream.adaptive.license_key=https://thick.ddns.net/key/keyy/inthebox.php
+https://thick.ddns.net/tv360/tv360.php?id=235&token=1a6df845b6a168f2cb80dbd9bf31630aba1f29c7
+
 #EXTINF:-1 tvg-id="boxhits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/CMvbkJd/Boxhits.png", Box Hits
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/boxhits.php
-https://tiemnhazunn.click/tv360/tv360.php?id=239
+#KODIPROP:inputstream.adaptive.license_key=https://thick.ddns.net/key/keyy/boxhits.php
+https://thick.ddns.net/tv360/tv360.php?id=239&token=1a6df845b6a168f2cb80dbd9bf31630aba1f29c7
 #EXTINF:-1 tvg-id="axnhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/vHCtNmb/AXN.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -179,20 +187,20 @@ https://s7772.cdn.mytvnet.vn/pkg20/live_dzones/axn.smil/manifest.mpd
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/ky6F0LD/Cinema-World.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/cinemaworld.php
+#KODIPROP:inputstream.adaptive.license_key=https://thick.ddns.net/key/keyy/cinemaworld.php
 https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd
 #EXTINF:-1 tvg-id="hits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Sy3YTxJ/hits-movies-logo.png", HITS
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
-https://tiemnhazunn.click/tv360/tv360.php?id=107
+https://thick.ddns.net/tv360/107/1a6df845b6a168f2cb80dbd9bf31630aba1f29c7/index.m3u8
 #EXTINF:-1 tvg-id="kix" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/QYVd38q/kix.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/kixhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", KIX HD
-#EXTVLCOPT:http-user-agent="Khanggne"
-http://dl.dropboxusercontent.com/s/b8hfpps96d9ghnh/getlink/fpt/subs-livecdn.fptplay.net/MjgxMzcwMDB8a2l4aGRfdmhscy5zbWlsfHZpZXR0ZWx8MTY4NzczNzY1M3wxMjUuMjEyLjE5Mi4yMzN8MTQ3NjY5NDI2NTliMTk3ZDdhZDVmY2Y0Mjc1ZjllOGU/fnxhd2/kixhd_vhls.smil/chunklist_b5000000.m3u8
+http://210.210.155.37/dr9445/h/h07/01.m3u8
 #EXTINF:-1 tvg-id="warnertvhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/88LPqCy/WB.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Warner TV
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/warnertv.php
+#KODIPROP:inputstream.adaptive.license_key=https://thick.ddns.net/key/keyy/warnertv.php
 https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/wtv.smil/manifest.mpd
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/mqY1Sxs/box-movie-1.png", Box Movie 1
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/j5HcXvW/holywood.png", Hollywood Classics
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8
@@ -447,34 +455,3 @@ http://evolved.host:8080/carlton.b.williams1@gmail.com/wmjSiWUXd4/496579
 http://evolved.host:8080/carlton.b.williams1@gmail.com/wmjSiWUXd4/214131
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Setanta-logo.jpg", Bắc Âu: Setanta Sport+
 http://evolved.host:8080/carlton.b.williams1@gmail.com/wmjSiWUXd4/214130
-
-#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/Bf4SPG7/Kplus-Cine-2021.png", K+ CINE - MyK+
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keycine.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
-https://tiemnhazunn.click/keompd/cine/index.mpd
-#EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/QFMwK7h/Kplus-Action-2023.png", K+ ACTION - MyK+
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keylife.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-https://tiemnhazunn.click/keompd/action/index.mpd
-#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/pxLHzZ9/Kplus-Sport-1-2021.png", K+ SPORT1 - MyK+
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keysport1.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-https://tiemnhazunn.click/keompd/sport1/index.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/mtTzffr/Kplus-Sport-2-2021.png", K+ SPORT2 - MyK+
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keysport2.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-https://tiemnhazunn.click/keompd/sport2/index.mpd
-#EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://i.ibb.co/gt6nYwJ/Kplus-Kids-2021.png", K+ KIDS - MyK+
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/kiptvtoken/keykids.php?token=41ecece1995b1dda260fcc7ace7c0afc&time=1699102892
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-https://tiemnhazunn.click/keompd/kids/index.mpd
