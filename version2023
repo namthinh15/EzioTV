@@ -137,17 +137,17 @@ https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 #EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://i.ibb.co/QkgRShZ/hbo-BEARTV.png" group-title="🌟| Giải Trí",HBO HD
 http://125hvt.ddns.net:21585/hbo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🌟| Giải Trí", CINEMAX HD
-https://streamer1.nexgen.bz/CINEMAX/index.m3u8
+https://e4.endpoint.cdn.sctvonline.vn/hls/cinemax/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="inthebox" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Jrs5Vq2/Inthe-Box-Channel-150x901j1.png", In The Box
 https://e4.endpoint.cdn.sctvonline.vn/hls/inthebox/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="boxhits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/CMvbkJd/Boxhits.png", Box Hits
-https://spstr.abntv.live/hls/psstream.m3u8
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxhits/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="axnhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/vHCtNmb/AXN.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
 http://125hvt.ddns.net:21585/axn/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/ky6F0LD/Cinema-World.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
-https://familyhls.avatv.live/hls/stream.m3u8
+https://e4.endpoint.cdn.sctvonline.vn/hls/cinemaworld/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="hits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Sy3YTxJ/hits-movies-logo.png", HITS
-https://cdn09jtedge.indihometv.com/joss/133/hits/index.m3u8
+https://e4.endpoint.cdn.sctvonline.vn/hls/hits/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/mqY1Sxs/box-movie-1.png", Box Movie 1
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/j5HcXvW/holywood.png", Hollywood Classics
@@ -159,11 +159,7 @@ https://edge2a.v2h-cdn.com/boomerang/boomerang.stream/playlist.m3u8
 https://cdn2.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8
 
 #EXTINF:-1 tvg-id="dmax" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/wNB2Q90/DMAX.png", DMAX
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/dmax.php
-https://tiemnhazunn.click/vieon/vieonquocte.php?id=dmax
+https://e4.endpoint.cdn.sctvonline.vn/hls/dmax/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="fashionhd" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/SX07Nbp/Fashion-TV.png", Fashion TV
 https://fashiontv-fashiontv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="tlchd" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/c2kb3GM/TLC-BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/travelliving_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", TLC
@@ -174,8 +170,7 @@ https://s7769.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd
 #EXTINF:-1 tvg-id="hgtv" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/qsVPWqW/HGTV.png", HGTV
 https://tiemnhazunn.click/tv360/tv360.php?id=99
 #EXTINF:-1 tvg-id="man" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/pXCVwvS/poster-1623742934c-Man.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/cliptv/man/dvr-${start}-${offset}.m3u8", Man
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tiemnhazunn.click/tv360/tv360.php?id=237
+https://e4.endpoint.cdn.sctvonline.vn/hls/man/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="bbcearth" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/t8W62qp/BBC-Earth.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BBC Earth
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
