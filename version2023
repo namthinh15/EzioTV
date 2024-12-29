@@ -141,7 +141,7 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/cinemax/index.m3u8|Referer=http://sctv
 #EXTINF:-1 tvg-id="inthebox" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Jrs5Vq2/Inthe-Box-Channel-150x901j1.png", In The Box
 https://e4.endpoint.cdn.sctvonline.vn/hls/inthebox/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="boxhits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/CMvbkJd/Boxhits.png", Box Hits
-https://e4.endpoint.cdn.sctvonline.vn/hls/boxhits/index.m3u8|Referer=http://sctvonline.vn/
+http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/889854336?profile=pass
 #EXTINF:-1 tvg-id="axnhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/vHCtNmb/AXN.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
 http://125hvt.ddns.net:21585/axn/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/ky6F0LD/Cinema-World.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
@@ -331,3 +331,13 @@ http://samisat44.xyz:80/5XF88W5/A38UYQV/748436
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 8
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748437
+
+#--*.*K+*.*--#
+#EXTINF:-1 group-title=" K+" tvg-logo="https://i.imgur.com/QPkuBRi.png" tvg-id="caf24ff6856144399bc0078e7c915c6e",K+ Action (DRM)
+http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/1984950986?profile=pass
+#EXTINF:-1 group-title=" K+" tvg-logo="https://i.imgur.com/As4bwUs.png" tvg-id="64b9d42640b9dbfa85e379d5bf4cd9be",K+ Cine (DRM)
+http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/651475300?profile=pass
+#EXTINF:-1 group-title=" K+" tvg-logo="https://i.imgur.com/6yiAtRg.png" tvg-id="3b509306ead8b6aa8199b0960bd83ba1",K+ Sport 1 (DRM)
+http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/110317627?profile=pass
+#EXTINF:-1 group-title=" K+" tvg-logo="https://i.imgur.com/EFeyqYX.png" tvg-id="120e35f02d54302d61ac8b3ee064ecd2",K+ Sport 2 (DRM)
+http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/1882525202?profile=pass
