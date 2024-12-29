@@ -253,24 +253,6 @@ https://cdn09jtedge.indihometv.com/joss/133/beib1/index.m3u8
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://lh3.googleusercontent.com/xgBwlbFCyaiOgVOH3CYalqUAn4t8xDPoDJk0ow-bU8ntG_2J6SZvQxml3POvS1JrACuEvJo2a8Dd3nbx73JLI-0UZyuItDrN5gY_wF9zPfLCuzu_M_zaNwuUJJsmBUmo8g=w1280", SPOTV2
 https://cdn09jtedge.indihometv.com/joss/133/beib2/index.m3u8
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/1200px-Sky_Sport_F1_-_Logo_2020.svg.png",Sky Sport F1
-http://p1.cvtv.xyz/f1?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://sender.epglogos.de/302x190_w/12181.png",Sky Sport Premier League
-http://p1.cvtv.xyz/pl?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sky_Sport_Mix_Logo_2022.svg/1200px-Sky_Sport_Mix_Logo_2022.svg.png",Sky Sport Mix
-http://p1.cvtv.xyz/mix?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://sender.epglogos.de/302x190_w/623.png",Sky Sport Bundesliga
-http://p1.cvtv.xyz/bun?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/1200px-Sky_Sport_Tennis.svg.png",Sky Sport Tennis
-http://p1.cvtv.xyz/tennis?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sky_Sport_Austria_1_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_1_AT_Logo_2020.svg.png",Sky Sport Austria 1
-http://p1.cvtv.xyz/SA1?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 2
-http://p1.cvtv.xyz/SA2?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 3
-http://p1.cvtv.xyz/SA3?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 4
-http://p1.cvtv.xyz/SA4?token=live
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/1000px-DAZN_1_Logo.svg.png",DAZN 1
 http://p1.cvtv.xyz/DZ1?token=live
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/1200px-DAZN_2.svg.png",DAZN 2
@@ -283,17 +265,99 @@ http://p1.cvtv.xyz/cz?token=live
 http://p1.cvtv.xyz/cp1?token=live
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/canalac.png",Canal+ Action
 http://p1.cvtv.xyz/ca?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://media.info/l/o/1/1539.1690027797.png",TNT Sports 1 4Mbps for 4G
-http://p1.cvtv.xyz/tnt1?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://media.info/l/o/1/1540.1690027877.png",TNT Sports 2 4Mbps for 4G
-http://p1.cvtv.xyz/tnt2?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://media.info/l/o/5/5712.1690027954.png",TNT Sports 3 4Mbps for 4G
-http://p1.cvtv.xyz/tnt3?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://media.info/l/o/1/1491.1690027975.png",TNT Sports 4 4Mbps for 4G
-http://p1.cvtv.xyz/tnt4?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/tntsp5.png",TNT Sports 5 4Mbps for 4G
-http://p1.cvtv.xyz/tnt5?token=live
+
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391293.png",Eleven Sports 1
 http://p1.cvtv.xyz/E1?token=live
 #EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391296.png",Eleven Sports 2
 http://p1.cvtv.xyz/E2?token=live
+
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/thumb/3/34/Digi_Sport_logo.svg/800px-Digi_Sport_logo.svg.png", DIGI SPORT 1 HD RO
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edge/113.0.1774.57
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/68897
+
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/thumb/3/34/Digi_Sport_logo.svg/800px-Digi_Sport_logo.svg.png", DIGI SPORT 2 HD RO
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edge/113.0.1774.57
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/68899
+
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN Sports Xtra HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/174567
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS LALIGA UHD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72390
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72383
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS EN ESPANOL HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72382
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 4 HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72388
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 5 HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72387
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 6 HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72386
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 7 HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72385
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 8 HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72384
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/1280px-GolTV_logo.svg.png", GOL TV EN HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/148580
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/1280px-GolTV_logo.svg.png", GOL TV ES HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/148581
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX DEPORTES HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/71958
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX News LIVE NOW
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72332
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX SOCCER PLUS HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/72330
+
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT FOOTBALL PLUS HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/252100
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT PREMIER LEAGUE HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/252098
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT LA LIGA HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/252099
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT FOOTBALL HD
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/252097
+
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 1
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748430
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 2
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748431
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 3
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748432
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 4
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748433
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 5
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748434
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 6
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748435
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 7
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748436
+#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 8
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/748437
