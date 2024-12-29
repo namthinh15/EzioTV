@@ -136,52 +136,27 @@ https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 
 #EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://i.ibb.co/QkgRShZ/hbo-BEARTV.png" group-title="🌟| Giải Trí",HBO HD
 http://125hvt.ddns.net:21585/hbo/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://lh3.googleusercontent.com/OX8DWAQ9uf5C2WVmEC_qvG9EVMthDMkCMDZV3VKG0tgdrsaKlZp8alIp1RMsGXks6931t8hWw5SBV3UXHLDD26uCYZwooR5KxbQX3hmdcEWJUZaHqOhw41n1qOKCG1dUjw=w1280" group-title="🌟| Giải Trí",HBO 2
-https://streamer1.nexgen.bz/HBO2/index.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🌟| Giải Trí", CINEMAX HD
 https://streamer1.nexgen.bz/CINEMAX/index.m3u8
 #EXTINF:-1 tvg-id="inthebox" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Jrs5Vq2/Inthe-Box-Channel-150x901j1.png", In The Box
-http://fpt.vthanhtivi.pw/In_The_Box/mpegts
+https://e4.endpoint.cdn.sctvonline.vn/hls/inthebox/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="boxhits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/CMvbkJd/Boxhits.png", Box Hits
-http://fpt.vthanhtivi.pw/Box_Hits/mpegts
+https://spstr.abntv.live/hls/psstream.m3u8
 #EXTINF:-1 tvg-id="axnhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/vHCtNmb/AXN.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
 http://125hvt.ddns.net:21585/axn/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/ky6F0LD/Cinema-World.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
-http://vthanhtivi.pw:5000/cinemaworld/index.m3u8
+https://familyhls.avatv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="hits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Sy3YTxJ/hits-movies-logo.png", HITS
-https://code.antmediatv.xyz/getplay/14c465f105badc594ebbeaa7fd511593af6b513d274b0bed778a77280768435970/tv360/107/2.m3u8
-#EXTINF:-1 tvg-id="kix" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/QYVd38q/kix.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/kixhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", KIX HD
-#EXTVLCOPT:http-user-agent=ANTmedia
-https://code.antmediatv.xyz/getplay/14c465f105badc594ebbeaa7fd511593af6b513d274b0bed778a77280768435970/fptplay/kix/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="warnertvhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/88LPqCy/WB.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Warner TV
-http://vthanhtivi.pw:5000/warnertv/index.m3u8
+https://cdn09jtedge.indihometv.com/joss/133/hits/index.m3u8
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/mqY1Sxs/box-movie-1.png", Box Movie 1
-http://fpt.vthanhtivi.pw/Box_Movie_1/mpegts
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/j5HcXvW/holywood.png", Hollywood Classics
-http://fpt.vthanhtivi.pw/Hollywood_Classics/mpegts
-#EXTINF:-1 tvg-id="" group-title="🌟| Giải Trí" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/tvbv.jpg", TVB Vietnam
-https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/6314468039001/0914b33308e3498da3b00fe2c050764e/playlist_ssaiM.m3u8
-#EXTINF:-1 tvg-id="" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/C5Gq4ky/1f6e441382a388940977fd9e165178c42fe0c193.png", Thrill
-https://code.antmediatv.xyz/getplay/14c465f105badc594ebbeaa7fd511593af6b513d274b0bed778a77280768435970/eazie/242921/playlist.m3u8
+https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8|Referer=http://sctvonline.vn/
 
-#EXTINF:-1 tvg-id="happykids" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/4Y4yxZq/Happy-Kids.png", Happy Kids
-https://vtsstr7.tv24.vn/live/smil:Happy_Kids.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="boomerang" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/tMk0mJx/Boomerang.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/boomerang_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Boomerang HD
 https://edge2a.v2h-cdn.com/boomerang/boomerang.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="cartoonhd" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/pJcF0Ym/Cartoon-Network.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cartoonnetworkhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Cartoon Network HD
 https://cdn2.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8
-#EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/nLVFzrr/Dream-Works-logo.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/dreamworks_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Dreamworks
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/cliptv/dreamwork.php
-https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dreamwork.smil/manifest.mpd
-#EXTINF:-1 tvg-id="babytvhd" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/cNQpbGr/Baby-TV.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/babytvhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BabyTV HD
-https://subs-livecdn.fptplay.net/mskychannel/babytvhd_4000.stream/manifest.mpd
-#EXTINF:-1 tvg-id="davinci" tvg-logo="https://i.ibb.co/V9zPbXz/Da-Vinci.png" tvg-name="Da Vinci (HD)"  group-title="🌈| Thiếu nhi",Da Vinci HD
-#EXTVLCOPT:http-user-agent="KIIP"
-https://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="cbeebies" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/KrdzC6y/CBeebies.png", BBC Cbeebies
-https://code.vthanhtivi.pw/getlink/mytv/525/hd.m3u8
 
 #EXTINF:-1 tvg-id="dmax" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/wNB2Q90/DMAX.png", DMAX
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
