@@ -148,6 +148,10 @@ https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 http://125hvt.ddns.net:21585/hbo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🌟| Giải Trí", CINEMAX HD
 https://ott1.sgchill.io.vn/vstv528/xemden29012025/cinemax/index.m3u8
+#EXTINF:-1 tvg-id="cinemaworldhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/ky6F0LD/Cinema-World.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
+http://pcriptv.ddns.net:9981/stream/channelid/337862650?ticket=14E62C929C846CBBCBCCCA15ADAC4533D7AF8404&profile=pass
+#EXTINF:-1 tvg-id="warnertvhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/88LPqCy/WB.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Warner TV
+http://pcriptv.ddns.net:9981/stream/channelid/1700605120?ticket=D74A63690F94E5F232C49F8640A0F3F4DE34A065&profile=pass
 #EXTINF:-1 tvg-id="inthebox" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Jrs5Vq2/Inthe-Box-Channel-150x901j1.png", In The Box
 https://ott1.sgchill.io.vn/vstv521/xemden29012025/235/index.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/CMvbkJd/Boxhits.png", Box Hits
@@ -163,6 +167,10 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8|Referer=http://sc
 https://edge2a.v2h-cdn.com/boomerang/boomerang.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="cartoonhd" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/pJcF0Ym/Cartoon-Network.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cartoonnetworkhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Cartoon Network HD
 https://cdn2.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8
+#EXTINF:-1 tvg-id="davinci" tvg-logo="https://i.ibb.co/V9zPbXz/Da-Vinci.png" tvg-name="Da Vinci (HD)"  group-title="🌈| Thiếu nhi",Da Vinci HD
+http://pcriptv.ddns.net:9981/stream/channelid/747158496?ticket=FAECC726A97725E1C8EFDFF0E4B7084E9E22E0D5&profile=pass
+#EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Thiếu nhi" tvg-logo="https://i.ibb.co/nLVFzrr/Dream-Works-logo.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/dreamworks_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Dreamworks
+http://pcriptv.ddns.net:9981/stream/channelid/1713969872?ticket=4357AB2C3075C6358480BE3D88993A36650A4C86&profile=pass
 
 #EXTINF:-1 tvg-id="dmax" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/wNB2Q90/DMAX.png", DMAX
 https://e4.endpoint.cdn.sctvonline.vn/hls/dmax/index.m3u8|Referer=http://sctvonline.vn/
