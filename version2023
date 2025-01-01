@@ -112,8 +112,8 @@ https://s2.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e9.endpoint.cdn.sctvonline.vn/
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/index.m3u8?khichtv|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv17hd" group-title="💫| SCTV" tvg-logo="https://i.ibb.co/R48wrKp/sctv17-hd-BEARTV.png", SCTV17 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36
-http://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV17.smil/chunklist.m3u8
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+https://s2.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e9.endpoint.cdn.sctvonline.vn/nginx.s2.edge.cdn.sctvonline.vn/hls/sctv17/index.m3u8
 #EXTINF:-1 tvg-id="sctv18hd" group-title="💫| SCTV" tvg-logo="https://i.ibb.co/72PK5Nr/sctv18-hd-BEARTV.png", SCTV18 HD
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv18/index.m3u8?khichtv|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv19hd" group-title="💫| SCTV" tvg-logo="https://i.ibb.co/gMJ1GRG/sctv19-hd-BEARTV.png", SCTV19 HD
@@ -147,13 +147,17 @@ https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 #EXTINF:-1 tvg-id="hbohd" tvg-name="HBO HD" tvg-logo="https://i.ibb.co/QkgRShZ/hbo-BEARTV.png" group-title="🌟| Giải Trí",HBO HD
 http://125hvt.ddns.net:21585/hbo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🌟| Giải Trí", CINEMAX HD
-https://ott1.sgchill.io.vn/vstv528/xemden29012025/cinemax/index.m3u8
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v2/hsd29012025/keys.xml
+https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/max.smil/manifest.mpd
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/ky6F0LD/Cinema-World.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
 http://pcriptv.ddns.net:9981/stream/channelid/337862650?ticket=14E62C929C846CBBCBCCCA15ADAC4533D7AF8404&profile=pass
 #EXTINF:-1 tvg-id="warnertvhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/88LPqCy/WB.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Warner TV
 http://pcriptv.ddns.net:9981/stream/channelid/1700605120?ticket=D74A63690F94E5F232C49F8640A0F3F4DE34A065&profile=pass
 #EXTINF:-1 tvg-id="inthebox" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/Jrs5Vq2/Inthe-Box-Channel-150x901j1.png", In The Box
-https://ott1.sgchill.io.vn/vstv521/xemden29012025/235/index.m3u8
+http://hoatv001.ddns.net:8002/ott/tv3603.php?id=235
 #EXTINF:-1 tvg-id="boxhits" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/CMvbkJd/Boxhits.png", Box Hits
 https://ott1.sgchill.io.vn/vstv521/xemden29012025/239/index.m3u8
 #EXTINF:-1 tvg-id="axnhd" group-title="🌟| Giải Trí" tvg-logo="https://i.ibb.co/vHCtNmb/AXN.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
@@ -219,117 +223,117 @@ https://ott1.sgchill.io.vn/vstv521/xemden29012025/163/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="🌏| Khám phá" tvg-logo="https://i.ibb.co/86mcDjw/Love-Nature-4-K.webp", Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
-#--*.*--⚽️|DRM Sports--*.*--#
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://lh4.googleusercontent.com/pKqkllPRNc-k8LgNWSBNpDiuSHKPTruz55aKe4TOZouawWh_YrkleVDSkUsFQv9BzEIMwo7Pqfiy2XcjBnVQBjcHyMe02c1-tiZ3nopW4GeqFhfXgeX-PecwNhaC_eXR0g=w1280", SPOTV1
+#--*.*--⚽️| Sports--*.*--#
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://lh4.googleusercontent.com/pKqkllPRNc-k8LgNWSBNpDiuSHKPTruz55aKe4TOZouawWh_YrkleVDSkUsFQv9BzEIMwo7Pqfiy2XcjBnVQBjcHyMe02c1-tiZ3nopW4GeqFhfXgeX-PecwNhaC_eXR0g=w1280", SPOTV1
 https://cdn09jtedge.indihometv.com/joss/133/beib1/index.m3u8
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://lh3.googleusercontent.com/xgBwlbFCyaiOgVOH3CYalqUAn4t8xDPoDJk0ow-bU8ntG_2J6SZvQxml3POvS1JrACuEvJo2a8Dd3nbx73JLI-0UZyuItDrN5gY_wF9zPfLCuzu_M_zaNwuUJJsmBUmo8g=w1280", SPOTV2
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://lh3.googleusercontent.com/xgBwlbFCyaiOgVOH3CYalqUAn4t8xDPoDJk0ow-bU8ntG_2J6SZvQxml3POvS1JrACuEvJo2a8Dd3nbx73JLI-0UZyuItDrN5gY_wF9zPfLCuzu_M_zaNwuUJJsmBUmo8g=w1280", SPOTV2
 https://cdn09jtedge.indihometv.com/joss/133/beib2/index.m3u8
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/1000px-DAZN_1_Logo.svg.png",DAZN 1
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/1000px-DAZN_1_Logo.svg.png",DAZN 1
 http://p1.cvtv.xyz/DZ1?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/1200px-DAZN_2.svg.png",DAZN 2
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/1200px-DAZN_2.svg.png",DAZN 2
 http://p1.cvtv.xyz/DZ2?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://gbcomcdn.com/uploads/production/5f574a8de2f9196327ad89f7/2021/02/sdf_logo_rgb_hoch_02.png",Sportdigital
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://gbcomcdn.com/uploads/production/5f574a8de2f9196327ad89f7/2021/02/sdf_logo_rgb_hoch_02.png",Sportdigital
 http://p1.cvtv.xyz/spd?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.programme-tv.net/imgre/fit/~2~channel~cd7b35ad736b1a9a.png/1200x800/quality/80/canalplus-premier-league.png",Canal+ Premier League
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.programme-tv.net/imgre/fit/~2~channel~cd7b35ad736b1a9a.png/1200x800/quality/80/canalplus-premier-league.png",Canal+ Premier League
 http://p1.cvtv.xyz/cz?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+ Sport
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+ Sport
 http://p1.cvtv.xyz/cp1?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/canalac.png",Canal+ Action
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/canalac.png",Canal+ Action
 http://p1.cvtv.xyz/ca?token=live
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391293.png",Eleven Sports 1
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391293.png",Eleven Sports 1
 http://p1.cvtv.xyz/E1?token=live
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391296.png",Eleven Sports 2
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391296.png",Eleven Sports 2
 http://p1.cvtv.xyz/E2?token=live
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/thumb/3/34/Digi_Sport_logo.svg/800px-Digi_Sport_logo.svg.png", DIGI SPORT 1 HD RO
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/thumb/3/34/Digi_Sport_logo.svg/800px-Digi_Sport_logo.svg.png", DIGI SPORT 1 HD RO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edge/113.0.1774.57
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/68897
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/thumb/3/34/Digi_Sport_logo.svg/800px-Digi_Sport_logo.svg.png", DIGI SPORT 2 HD RO
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/thumb/3/34/Digi_Sport_logo.svg/800px-Digi_Sport_logo.svg.png", DIGI SPORT 2 HD RO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edge/113.0.1774.57
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/68899
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN Sports Xtra HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN Sports Xtra HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/174567
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS LALIGA UHD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS LALIGA UHD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72390
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72383
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS EN ESPANOL HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS EN ESPANOL HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72382
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 4 HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 4 HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72388
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 5 HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 5 HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72387
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 6 HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 6 HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72386
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 7 HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 7 HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72385
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 8 HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp?ver=28-06-2024?w=3840&q=75", BeIN SPORTS 8 HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72384
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/1280px-GolTV_logo.svg.png", GOL TV EN HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/1280px-GolTV_logo.svg.png", GOL TV EN HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/148580
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/1280px-GolTV_logo.svg.png", GOL TV ES HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/1280px-GolTV_logo.svg.png", GOL TV ES HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/148581
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX DEPORTES HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX DEPORTES HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/71958
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX News LIVE NOW
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX News LIVE NOW
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72332
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX SOCCER PLUS HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg", FOX SOCCER PLUS HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/72330
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT FOOTBALL PLUS HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT FOOTBALL PLUS HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/252100
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT PREMIER LEAGUE HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT PREMIER LEAGUE HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/252098
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT LA LIGA HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT LA LIGA HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/252099
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT FOOTBALL HD
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.careersinafrica.com/wp-content/uploads/2013/06/supersport-logo.png", SUPERSPORT FOOTBALL HD
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/252097
 
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 1
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 1
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748430
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 2
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 2
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748431
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 3
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 3
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748432
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 4
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 4
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748433
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 5
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 5
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748434
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 6
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 6
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748435
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 7
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 7
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748436
-#EXTINF:-1 group-title="⚽️|DRM Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 8
+#EXTINF:-1 group-title="⚽️| Sports" tvg-logo="https://www.nowtv.now.com/media/s-logo/620_e.png", NOW HK PREMIER SPORTS 8
 #EXTVLCOPT:network-caching=1000
 http://samisat44.xyz:80/5XF88W5/A38UYQV/748437
